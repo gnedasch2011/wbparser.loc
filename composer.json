@@ -1,0 +1,26 @@
+{
+    "name": "maksimGnedash/wbparser",
+    "type": "project",
+    "description": "",
+    "authors": [
+        {
+            "name": "maksimGnedash",
+            "email": "gnedasch2011@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "2.0.41.1",
+        "yiisoft/yii2-httpclient": "*",
+        "symfony/dom-crawler": "^5.2",
+        "symfony/css-selector": "^5.2"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "autoload": {
+        "psr-4": {"WB\\": "./src"}
+    }
+}
